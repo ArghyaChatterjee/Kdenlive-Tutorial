@@ -2,6 +2,7 @@
 This repository is all about Kdenlive and it's implementation in my PhD.
 ## How to perform crop on a video in Kdenlive ?
 Answer:
+
 There are 2 ways to perform crop.
 
 1. To apply the Crop Effect, click on the video clip in the Timeline to select it.
