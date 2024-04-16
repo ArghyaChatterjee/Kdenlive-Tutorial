@@ -1,6 +1,6 @@
 # All-About-Kdenlive
 This repository is all about Kdenlive and it's implementation in my PhD.
-## - How to perform crop on a video in Kdenlive ?
+## How to perform crop on a video in Kdenlive ?
 Answer:
 There are 2 ways to perform crop.
 
