@@ -1,5 +1,6 @@
 # All-About-Kdenlive
-This repository is all about Kdenlive and it's implementation in my PhD.
+This repository is for creating a tutorial about video editing with Kdenlive and some tips and tricks about video editing.
+
 ## How to perform crop on a video in Kdenlive ?
 Answer:
 
@@ -14,3 +15,10 @@ There are 2 ways to perform crop.
    - You will see the Crop effect listed there. Click on it and go to `crop by padding`.
    - Adjust the `Left`, `Right`, `Top`, and `Bottom` values to control how much of each edge to crop. The adjustments can be made using the sliders or by entering values manually to get precise control.
 
+## How to convert an MP4 file to a ZIP file ?
+Answer:
+
+Once you generated the mp4 file from the Kdenlive render, use command line tool:
+```bash
+ffmpeg -i input.mp4 -vf "fps=5,scale=640:-1:flags=lanczos" -c:v gif output.gif
+```
