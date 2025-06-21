@@ -1,4 +1,4 @@
-# All-About-Kdenlive
+# All About Kdenlive
 This repository is for creating a tutorial about video editing with Kdenlive and some tips and tricks about video editing.
 
 ## How to perform crop on a video in Kdenlive ?
