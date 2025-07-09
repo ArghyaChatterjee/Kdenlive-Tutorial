@@ -23,7 +23,7 @@ ffmpeg -i input.mp4 -filter:v "crop=1700:1038:110:21" -c:a copy output.mp4
 ```
 You can also get the output file in `gif` format.
 
-## How to convert an MP4 file to a ZIP file ?
+## How to convert an MP4 file to a GIF file ?
 Answer:
 
 Once you generated the mp4 file from the Kdenlive render, use command line tool:
