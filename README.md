@@ -30,7 +30,7 @@ Once you generated the mp4 file from the Kdenlive render, use command line tool:
 ```bash
 ffmpeg -i input.mp4 -vf "fps=5,scale=640:-1:flags=lanczos" -c:v gif output.gif
 ```
-## How to add/overlay another video on top a video to run simultaneously ?
+## How to add/overlay videos to run simultaneously?
 Answer:
 
 **1. Apply Crop Effect**
