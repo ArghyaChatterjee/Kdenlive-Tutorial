@@ -30,3 +30,29 @@ Once you generated the mp4 file from the Kdenlive render, use command line tool:
 ```bash
 ffmpeg -i input.mp4 -vf "fps=5,scale=640:-1:flags=lanczos" -c:v gif output.gif
 ```
+## How to add/overlay another video on top a video to run simultaneously ?
+Answer:
+* Click on the clip in the timeline (either V1 or V2) that you want to crop.
+* Open the **Effects** panel in **TimeLine** (`Ctrl+Shift+E`).
+* Search for **Crop** (or **Crop, Scale & Transform** if you want everything in one).
+* Double‑click it to apply.
+* In the **Effect Controls** for that clip, you’ll see sliders or numeric fields for **Top**, **Bottom**, **Left**, and **Right**.
+* Increase each value to “cut off” that much from the corresponding edge.
+* You can scrub through the video in the Project Monitor to make sure you’re cropping exactly where you want.
+* If you used the simple **Crop** effect, you can then add **Transform** (or **Scale & Transform**) afterward to resize or reposition.
+* The order in the Effect Controls panel matters—effects at the top apply first. You can drag them to reorder.
+* For your inset clip on **V2**, first crop out any unwanted borders (e.g. black bars or extra top padding).
+* Then scale it down and move it into the corner as before.
+
+
+**2. Apply Transform Effect**
+
+* Select the clip on **V2**, then go to **Effects** (press `Ctrl+Shift+E`).
+* Search for and add **Transform** (or **Crop, Scale & Transform** in older versions).
+* In the Effect Controls panel, under **Scale**, reduce the size to whatever percentage you want (e.g. 20–30%).
+* Still in the same effect, adjust the **Position X** and **Position Y** sliders (or drag the clip’s bounding‑box handles directly in the Project Monitor) so that the scaled clip sits in the lower‑left or lower‑right corner.
+* Play back in the Project Monitor to make sure both clips run in sync.
+* Trim or stretch clips on the timeline if you need to adjust their lengths.
+
+
+
