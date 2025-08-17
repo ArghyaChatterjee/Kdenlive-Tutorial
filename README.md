@@ -15,6 +15,15 @@ There are 2 ways to perform crop.
    - You will see the Crop effect listed there. Click on it and go to `crop by padding`.
    - Adjust the `Left`, `Right`, `Top`, and `Bottom` values to control how much of each edge to crop. The adjustments can be made using the sliders or by entering values manually to get precise control.
 
+## How to perform crop on a video and scale the video to fit the canvas in Kdenlive ?
+Answer:
+
+* Select the clip on **V1**, then go to **Effects** from **Timeline** (press `Ctrl+Shift+E`).
+* Search for and add **Add Effect** --> **Transform, Distort & Perspective** --> **Crop by Padding**.
+* In the Effect Controls panel, always **Scale** first and do the other operations later. Scale to increase the size to whatever percentage you want (e.g. 120–130%).
+* Still in the same effect, adjust the **Position X** and **Position Y** sliders (or drag the clip’s bounding‑box handles directly in the Project Monitor) so that the scaled clip fits the whole canvas.
+* Trim or stretch clips on the timeline if you need to adjust their lengths.
+
 ## How to add/overlay videos to run simultaneously?
 Answer:
 
