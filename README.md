@@ -18,6 +18,7 @@ There are 2 ways to perform crop.
 ## How to perform crop on a video and scale the video to fit the canvas in Kdenlive ?
 Answer:
 
+* First go to **projects** --> **project Setttings** --> select the resolution and fps for the project (default 1080p at 30hz).
 * Select the clip on **V1**, then go to **Effects** from **Timeline** (press `Ctrl+Shift+E`).
 * Search for and add **Add Effect** --> **Transform, Distort & Perspective** --> **Crop by Padding**.
 * In the Effect Controls panel, always **Scale** first and do the other operations later. Scale to increase the size to whatever percentage you want (e.g. 120–130%).
