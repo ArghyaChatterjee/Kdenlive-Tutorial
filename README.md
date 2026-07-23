@@ -59,5 +59,53 @@ Answer:
 * Play back in the Project Monitor to make sure both clips run in sync.
 * Trim or stretch clips on the timeline if you need to adjust their lengths.
 
+## How to Face Blur in Kdenlive ?
+Answer:
+
+Go through this tutorial: https://www.youtube.com/watch?v=sFkJIzPglko
+
+In **Kdenlive**, there are two common ways to blur a face.
+
+**Method 1: Motion Tracker + Blur (Recommended)**
+
+This is the easiest if the face moves.
+
+* Import your video and drag it to the timeline.
+* Select the clip.
+* Go to **Effects** and add **Motion Tracker** (or **Motion Tracker (Face)** if your version has it).
+* In the Motion Tracker effect:
+
+   * Draw a rectangle around the face.
+   * Click **Analyze** or **Track Forward**.
+   * Let Kdenlive generate the tracking data.
+* Add a **Blur** effect:
+
+   * Search for **Gaussian Blur**, **Box Blur**, or **Pixelize** (pixelization is often better for anonymization).
+* In the blur effect, choose **Apply to: Tracked Region** (or link it to the motion tracker, depending on your Kdenlive version).
+* Adjust:
+
+   * Blur strength or pixel size.
+   * Region size so it fully covers the face.
+
+The blur will automatically follow the face.
+
+**Method 2: Manual Mask + Blur**
+
+If the face doesn't move much:
+
+* Add a **Blur** or **Pixelize** effect.
+* Enable the effect's **mask/shape** (ellipse or rectangle).
+* Position it over the face.
+* If the face moves:
+
+   * Move the playhead.
+   * Click the **keyframe** button.
+   * Reposition the mask.
+   * Repeat every few seconds or whenever the face changes direction.
+
+Kdenlive interpolates between keyframes automatically.
+
+
+
 
 
